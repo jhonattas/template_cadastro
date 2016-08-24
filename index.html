@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cardban | Solicitação de Cartão</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+</head>
+
+
+	<header>
+		<h1>Solicitação de Cartão</h1>
+        <a href="http://cardban.com.br/">voltar</a>
+    </header>
+
+    <ul>
+        <li><a href="index.html" class="active">Titular</a></li>
+        <li><a href="contato.html">Endereço</a></li>
+        <li><a href="plano.html">Plano</a></li>
+        <li><a href="#">Dados Adicionais</a></li>
+        <li><a href="#">Conclusão</a></li>
+    </ul>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Dados do Titular</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Nome</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Sobrenome</span>
+                    <input type="text" name="lastname">
+                </label>
+            </div>
+
+            <br/>
+
+            <div class="form-row">
+                <label>
+                    <span>CPF</span>
+                    <input type="number" name="cpf">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>RG</span>
+                    <input type="text" name="rg">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Data de Nasc.</span>
+                    <input type="date" name="nascimento">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>Genero</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Masculino</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Feminino</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Outro</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Profissão</span>
+                    <input type="text" name="profissao">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>Estado Civil</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Solteiro(a)</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Casado(a)</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Divorciado(a)</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Viúvo(a)</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Separado(a)</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="genero">
+                            <span>Companheiro(a)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Próximo</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
